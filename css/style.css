@@ -42,6 +42,7 @@ nav a:hover {
 .row {
     padding: 0 20px;
     display: table;
+    width: 100%;
 }
 
 section {
@@ -104,9 +105,23 @@ footer p {
     text-align: justify;
 }
 
+/*tablets*/
 @media screen and (max-width: 768px) {
     section, aside {
         width: 100%;
         padding: 0;
     }
 }
+
+    /*celulares*/
+    @media screen and (max-width: 600px) {
+       nav li {
+        float: none;
+        text-align: center;
+        width: 1005;
+       }
+       
+       footer p {
+        display: none;
+       }
+    }
