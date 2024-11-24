@@ -17,3 +17,12 @@ label {
     padding-bottom: 5px;
     display: inline-block;
 }
+
+button {
+    background-color: white;
+    border: 1px solid rgb(21, 4, 98);
+    color: rgb(21, 4, 98);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+}
